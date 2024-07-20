@@ -2,12 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Café Intelectual </title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #c61616;
+        }
+
+        .image-container {
+            text-align: center;
+            border: 2px solid #000;
+            padding: 10px;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        img {
+            max-width: 550px;
+            height: auto;
+        }
+        h1{
+            color: #000;
+        }
+    </style>
 </head>
 <body>
-<p>
-    Chegamos aqui!
-</p>
-
+    <div class="image-container">
+        <img th:src="${imagemUrl}" alt="Image"/>
+        <h1>Uma Linda Frase</h1>
+    </div>
 </body>
 </html>
