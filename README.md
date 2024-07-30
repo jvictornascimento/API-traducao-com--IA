@@ -1,4 +1,4 @@
-<h1 align="center">Café Intelectual API</h1>
+<h1 align="center">Café  API</h1>
 
 ![Badge Concluído](https://img.shields.io/static/v1?label=Status&message=Desenvolvendo&color=red&style=for-the-badge)
 ![Badge Java](https://img.shields.io/static/v1?label=Java&message=21&color=orange&style=for-the-badge&logo=java)
@@ -6,12 +6,12 @@
 
 ## Resumo do projeto
 
-Uma api para pessoas que gostam de café e frases legais para se começar o dia! O principal intuito dessa api é entender melhor e estudar como utilizar 
+Uma api para pessoas que gostam de café e frases aleatorias! O principal intuito dessa api é entender melhor e estudar como utilizar 
 Spring openFeign
 
 ## Funcionalidades
 
-- `Index`: Te mostra uma pagina com uma imagem de um cafezinho e uma frase pra começar o dia. Atraves do **GET localhost:8080/**
+- `Index`: Te mostra uma pagina com uma imagem de um cafezinho e uma frase aleatoria. Atraves do **GET localhost:8080/**
 
 
 ## Construir a aplicação
@@ -37,6 +37,6 @@ Após subir a aplicação, acesse <http://localhost:8080/>.
 - `Thymeleaf`
 
 ## Atualizações futuras
-- [ ] Deixar o index mais bonito.
-- [ ] Fazer as Traduções das frases para o português.
+- [ ] Deixar o index mais bonito e padronizado.
+- [x] Fazer as Traduções das frases para o português com a inteligência artificial do google Gemini.
 - [ ] Hospedar ela em algum serviço de nuvem (estudo).
