@@ -7,11 +7,11 @@
 ## Resumo do projeto
 
 Uma api para pessoas que gostam de café e frases aleatorias! O principal intuito dessa api é entender melhor e estudar como utilizar 
-Spring openFeign
+Spring openFeign e fazer traduções com a inteligencia artificial do google a gemini.
 
 ## Funcionalidades
 
-- `Index`: Te mostra uma pagina com uma imagem de um cafezinho e uma frase aleatoria. Atraves do **GET localhost:8080/**
+- `Index`: Te mostra uma pagina com uma imagem de um cafezinho e uma frase aleatoria traduzida pela IA. Atraves do **GET localhost:8080/**
 
 
 ## Construir a aplicação
